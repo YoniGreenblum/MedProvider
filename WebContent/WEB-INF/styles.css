@@ -1,0 +1,213 @@
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	height: 100%;
+	}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 0;
+}
+.aligncenter {
+	text-align: center;
+}
+
+.sortOptions>label {
+	font-size: 30px;
+}
+
+.sortOptions>input[type=radio] {
+	width: 30px;
+	height: 30px;
+}
+
+.column {
+	float: left;
+	height: 900px;
+}
+
+.left, .right {
+	width: 25%;
+	background-color: #d3d3d3;
+}
+
+.middle {
+	background-color: #bbb;
+	width: 50%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo {
+	position: relative;
+	z-index: 0;
+	background: none;
+	width: 70%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo .container {
+	z-index: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 180px
+}
+
+.logo .container img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo .container p {
+	font-size: 25px;
+	margin: 0 0;
+}
+
+.logout a {
+	background-color: #cd5c5c;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	transition-duration: 0.4s;
+}
+
+.logout a:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid #cd5c5c;
+}
+
+.middle-body {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.form-container {
+	display: block;
+	text-align: left;
+	margin-top: 20px;
+}
+
+form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+/* Trying to style the textbox for message but doesnt seem to work.   */
+textarea
+{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons in form-containers */
+.form-container button {
+	background-color: #cd5c5c;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.form-container #submit-btn {
+	margin-top: 15px;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#btn-container {
+	width: 100%;
+	margin: auto;
+}
+
+.body-btns button {
+	background-color: #cd5c5c;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 20px;
+	width: 250px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid #cd5c5c;
+	margin: -2px;
+	margin-bottom: 18px;
+}
+
+
+
+.body-btns {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#view__msg_table, #view_app_table, #view_presc_table {
+	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fixed-table {
+	table-layout: fixed;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid black;
+	word-wrap: break-word;
+}
+
+#login:hover {
+	margin-bottom: 0px;
+}
+#signUp-btn {
+	margin-top: 20px;
+}
